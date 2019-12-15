@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Merry Christmas</title>
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut  icon" type="image/x-icon" href="img\ico.ico" media="screen"  />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.accordion.css">
+
+  </head>
+ <body>
+	
+	
+	<div class="title">
+	<li class="top"><a href="#"><img src="img/主页.png" alt="" /></a></li>
+	<ul class="box" >
+	<li class="box01"><a href="food.html">饮食</a></li>
+	<li class="box02"><a href="decoration.html">装饰</a></li>
+	<li class="box03"><a href="origin.html">影视</a></li>
+	<li class="box04"><a href="bless.html">祝福</a></li>
+	
+	</ul>
+	<li class="box05"><a href="index.html"target="_self"><img src="img\snowman2.png" alt="" /></a></li>
+	<li class="music"><audio src="music\Let It Be Christmas.mp3"controls="controls" loop="loop" autoplay="autoplay"></audio></li>
+	</div>
+	<div id="load">
+
+ <a href=""><div>吧</div>
+
+ <div>航</div>
+
+ <div>导</div>
+
+ <div>侧</div>
+
+ <div>右</div>
+
+ <div>击</div>
+
+ <div>点</div></a>
+
+</div>  
+ 
+    <article class="htmleaf-container" style="margin-top: 10%;margin-left: 31%;" >
+		
+		<div class="accordion" style="">
+			<ul>
+				<li class="item1 active"><a href="food.html" id="a1" ></a></li>
+				<li class="item2 " style=""><a href="decoration.html" id="a2"></a></li>
+				<li class="item3"><a href="origin.html"></a></li> 
+				<li class="item4"><a href="bless.html"></a></li>
+			</ul>
+		</div>
+		
+	</article>
+	
+	<script src="lib/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.accordion.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $(".accordion").accordion();
+	  });
+
+
+	 
+	$(".item1").click(function () {
+           window.location.href="food.html"});
+	$(".item2").click(function () {
+           window.location.href="decoration.html"});
+	$(".item3").click(function () {
+           window.location.href="origin.html"});
+	$(".item4").click(function () {
+           window.location.href="bless.html"});
+	</script> 
+
+	
+ </body>
+</html>

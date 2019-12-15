@@ -1,0 +1,66 @@
+*{margin:0;padding:0;list-style:none;outline:none;}
+@font-face {
+   font-family: 'ah the monster is coming';
+   src: url('../fonts/ah the monster is coming.ttf'); 
+} 
+@font-face {
+   font-family: '文悦古体仿宋';
+   src: url('../fonts/文悦古体仿宋.otf'); 
+} 
+
+
+
+.one{
+
+	width:100%;
+	height:100%;
+	position:absolute;
+	font-size:50px;
+/*	background-image:url(../img/登陆.png);*/
+	background-size:cover;
+	margin-top: 20%;
+	font-family: '楷体', serif;
+    font-size:40px;
+    text-align:center;
+    line-height:50px;
+   
+	
+}
+
+.one p{
+	position:absolute;
+	text-align: center;
+	margin-left: 38%;
+	margin-top: -10%;
+	font-size: 60px;
+	line-height: 100px;
+}
+
+.snowman{
+      position:fixed;
+	  top:50px;
+	  right:50px;
+}
+.snowman img{
+	height:50px;
+}
+#nav{ position:fixed;
+	  top:50px;
+	  left:50px;}  
+#nav ul{ list-style:none;}  
+#nav ul li{ float:left; 
+			line-height:40px; 
+			text-align:center; 
+			position:relative;}  
+#nav ul li a{ text-decoration:none; 
+			  color:#000; 
+			  display:block;
+			  padding:0px 10px;}  
+#nav ul li a:hover{ color:black; background:none}  
+#nav ul li ul{ position:absolute; display:none;}  
+#nav ul li ul li{ float:none; line-height:30px; text-align:left;}  
+#nav ul li ul li a{ width:100%;}  
+#nav ul li ul li a:hover{ background-color:#C8FFFF;}  
+#nav ul li:hover ul{ display:block}  
+.hamburg1{border-top:2px solid #000;width:30px;height:10px;}
+.hamburg2{border-top:2px solid #000;width:30px;height:10px;border-bottom:2px solid #000}

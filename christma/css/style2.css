@@ -1,0 +1,183 @@
+*{margin:0;padding:0;list-style:none;outline:none;}
+@font-face {
+   font-family: 'ah the monster is coming';
+   src: url('../fonts/ah the monster is coming.ttf'); 
+} 
+@font-face {
+   font-family: '文悦古体仿宋';
+   src: url('../fonts/文悦古体仿宋.otf'); 
+} 
+a{	color:black;
+	text-decoration:none;
+}
+.title { 
+   font-family: 'ah the monster is coming', serif;
+   font-size:70px;
+   text-align:center;
+   line-height:600px;
+   }
+
+.start :hover{
+	font-size:60px;
+	color:#a08f80;
+}
+
+body{
+	height:100%;
+	overflow:auto; 
+	margin:0px;
+	padding:0px;}
+.one{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:900px;
+	
+	font-size:50px;
+	background-image:url(../img/首页.jpg);
+	background-size:cover;
+	
+}
+
+.start {
+	position:absolute;
+	top:700px;
+	left:650px;
+	
+
+}
+.snowman{
+position:fixed;
+	  top:50px;
+	  right:50px;
+}
+.snowman img{
+	height:50px;
+}
+
+#nav{ position:fixed;
+	  top:50px;
+	  left:50px;}  
+#nav ul{ list-style:none;}  
+#nav ul li{ float:left; 
+			line-height:40px; 
+			text-align:center; 
+			position:relative;}  
+#nav ul li a{ text-decoration:none; 
+			  color:#000; 
+			  display:block;
+			  padding:0px 10px;}  
+#nav ul li a:hover{ color:black; background:none}  
+#nav ul li ul{ position:absolute; display:none;}  
+#nav ul li ul li{ float:none; line-height:30px; text-align:left;}  
+#nav ul li ul li a{ width:100%;}  
+#nav ul li ul li a:hover{ background-color:#C8FFFF;}  
+#nav ul li:hover ul{ display:block}  
+.hamburg1{border-top:2px solid #000;width:30px;height:10px;}
+.hamburg2{border-top:2px solid #000;width:30px;height:10px;border-bottom:2px solid #000}
+body{background: #000;}
+#load{
+position: absolute; 
+width: 600px; 
+height: 50px;
+left: 50%; 
+top: 70%;
+margin-left: -300px;
+overflow: visible;
+-webkit-user-select: none; 
+cursor: default;}
+#load div{position: absolute;
+font-size:20px;
+width: 40px; 
+height: 50px;
+opacity: 0; 
+font-family: '微软雅黑', serif;
+-webkit-animation: move 2s linear infinite; 
+-webkit-transform: rotate(180deg); 
+color: #000;}
+#load div:nth-child(2){-webkit-animation-delay: 0.2s;}
+#load div:nth-child(3){-webkit-animation-delay: 0.4s;}
+#load div:nth-child(4){-webkit-animation-delay: 0.6s;}
+#load div:nth-child(5){ -webkit-animation-delay: 0.8s;}
+#load div:nth-child(6){ -webkit-animation-delay: 1s;}
+#load div:nth-child(7){-webkit-animation-delay: 1.2s;}
+@-webkit-keyframes move{0%{left:0; opacity:0;} 
+					    35%{left: 41%; -webkit-transform:rotate(0deg);  opacity:1;} 
+					    65%{left:59%; -webkit-transform:rotate(0deg);  opacity:1;} 
+					    100%{left:100%; -webkit-transform:rotate(-180deg); opacity:0;}}
+
+.two{
+margin:0;
+padding:0;
+width:100%;
+height:900px;
+background-image:url(../img/登陆.jpg);
+/*background-size:1600px 900px;*/
+/*background-size:cover;*/
+background-size:100% 100%;
+
+     }
+.next{
+font-size:50px;
+position:relative;
+
+top:600px;
+color: gray;
+left: 60%;
+
+
+/*text-align:center;*/
+z-index:2;
+}
+/*.bg{
+position:relative;
+left:640px; top:755px;
+width:70px;
+height:30px;
+background-color:#a08f80;
+z-index:1;
+border-radius:16px;
+}*/
+form{
+	width:600px;
+	height:400px;
+	margin:50px auto;
+	padding-left:60px;
+	position:absolute;
+	left:45%;
+	top:1150px;
+}
+h2{
+   position:absolute;
+   left:20px;
+   font-size:30px;
+   font-family: '微软雅黑' serif;
+   text-align:center;
+}
+p{margin-top:10px;
+  font-family: '微软雅黑',serif;
+  font-size:45px;
+  color:#bfbfbf;
+  }
+span{
+	left: 50%;
+	font-size:30px;
+	font-family: '楷体',serif;
+	width:150px;
+	display:inline-block;
+	text-align:right;
+	color:#bfbfbf;
+	
+	
+
+}
+p input{
+	width:180px;
+	height:30px;
+	border:3px solid #bfbfbf;
+	padding:4px;
+	background-color:#bfbfbf;
+	
+}
+
+
